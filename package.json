@@ -1,0 +1,19 @@
+{
+  "name": "vac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bot": "nodemon bot.js",
+    "yahoo": "nodemon yahoo.js",
+    "checkOTP": "nodemon checkOTP.js"
+  },
+  "dependencies": {
+    "imap": "^0.8.19",
+    "puppeteer": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sucrase": "^3.18.1"
+  }
+}
